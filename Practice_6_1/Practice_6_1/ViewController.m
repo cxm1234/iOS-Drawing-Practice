@@ -6,7 +6,8 @@
 //
 
 #import "ViewController.h"
-
+#import "Gradient.h"
+#define WHITE_LEVEL(_amt_,_alpha_) [UIColor colorWithWhite:(_amt_) alpha:(_alpha_)]
 @interface ViewController ()
 
 @property(nonatomic, strong)UIImageView *imageView;
@@ -31,7 +32,12 @@
     
 }
 
-- (UIImage *)buildImageTestOne {
+- (UIImage *)buildImageTestOne:(CGSize)targetSize {
+    UIGraphicsBeginImageContextWithOptions(targetSize, NO, 0.0);
+    
+    Gradient *gradient = [Gradient gradientFrom:WHITE_LEVEL(0, 0) to:WHITE_LEVEL(0, 1)];
+    
+    
     
 }
 

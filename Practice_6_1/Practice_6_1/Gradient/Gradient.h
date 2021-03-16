@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Gradient : NSObject
 
++ (instancetype)gradientFrom:(UIColor *)color1 to:(UIColor *)color2;
+
 @end
 
 NS_ASSUME_NONNULL_END
