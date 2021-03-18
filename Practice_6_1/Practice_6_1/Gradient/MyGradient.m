@@ -5,18 +5,18 @@
 //  Created by  generic on 2021/3/16.
 //
 
-#import "Gradient.h"
+#import "MyGradient.h"
 #import <UIKit/UIKit.h>
 
 typedef __attribute__((NSObject)) CGGradientRef GradientObject;
 
-@interface Gradient()
+@interface MyGradient()
 
 @property(nonatomic, strong) GradientObject storedGradient;
 
 @end
 
-@implementation Gradient
+@implementation MyGradient
 
 - (CGGradientRef)gradient {
     return _storedGradient;
@@ -45,7 +45,7 @@ typedef __attribute__((NSObject)) CGGradientRef GradientObject;
         return nil;
     }
     
-    Gradient *gradient = [[self alloc] init];
+    MyGradient *gradient = [[self alloc] init];
     gradient.storedGradient = gradientRef;
     CGGradientRelease(gradientRef);
     return gradient;
@@ -63,6 +63,11 @@ typedef __attribute__((NSObject)) CGGradientRef GradientObject;
         return;
     }
     CGContextDrawLinearGradient(context, self.gradient, p1, p2, mask);
+}
+
+- (void) drawFrom:(CGPoint) p1 toPoint: (CGPoint) p2
+{
+    [self drawFrom:p1 toPoint:p2 style:kCGGradientDrawsAfterEndLocation | kCGGradientDrawsBeforeStartLocation];
 }
 
 - (void)drawRadialFrom:(CGPoint)p1 toPoint:(CGPoint)p2 radii:(CGPoint)radii style:(int)mask {

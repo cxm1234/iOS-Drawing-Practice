@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31C1A89A2601AE9D00F0AF9C /* BezierFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C1A8822601AE9D00F0AF9C /* BezierFunctions.m */; };
+		31C1A89B2601AE9D00F0AF9C /* BezierElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C1A8842601AE9D00F0AF9C /* BezierElement.m */; };
+		31C1A89C2601AE9D00F0AF9C /* BezierUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C1A8852601AE9D00F0AF9C /* BezierUtils.m */; };
+		31C1A89D2601AE9D00F0AF9C /* UIBezierPath+Elements.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C1A8882601AE9D00F0AF9C /* UIBezierPath+Elements.m */; };
+		31C1A89E2601AE9D00F0AF9C /* Drawing-Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C1A88E2601AE9D00F0AF9C /* Drawing-Util.m */; };
+		31C1A89F2601AE9D00F0AF9C /* Drawing-Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C1A88F2601AE9D00F0AF9C /* Drawing-Block.m */; };
+		31C1A8A02601AE9D00F0AF9C /* Drawing-Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C1A8902601AE9D00F0AF9C /* Drawing-Gradient.m */; };
+		31C1A8A12601AE9D00F0AF9C /* ImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C1A8922601AE9D00F0AF9C /* ImageUtils.m */; };
+		31C1A8A22601AE9D00F0AF9C /* BaseGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C1A8962601AE9D00F0AF9C /* BaseGeometry.m */; };
+		31C1A8A32601AE9D00F0AF9C /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C1A8982601AE9D00F0AF9C /* Utility.m */; };
 		31CE2D1A2600B07800FCF46A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CE2D192600B07800FCF46A /* AppDelegate.m */; };
 		31CE2D1D2600B07800FCF46A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CE2D1C2600B07800FCF46A /* SceneDelegate.m */; };
 		31CE2D202600B07800FCF46A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CE2D1F2600B07800FCF46A /* ViewController.m */; };
@@ -14,10 +24,32 @@
 		31CE2D252600B07B00FCF46A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31CE2D242600B07B00FCF46A /* Assets.xcassets */; };
 		31CE2D282600B07B00FCF46A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31CE2D262600B07B00FCF46A /* LaunchScreen.storyboard */; };
 		31CE2D2B2600B07B00FCF46A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CE2D2A2600B07B00FCF46A /* main.m */; };
-		31CE2D342600B15700FCF46A /* Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CE2D332600B15700FCF46A /* Gradient.m */; };
+		31CE2D342600B15700FCF46A /* MyGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CE2D332600B15700FCF46A /* MyGradient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31C1A8812601AE9D00F0AF9C /* Bezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bezier.h; sourceTree = "<group>"; };
+		31C1A8822601AE9D00F0AF9C /* BezierFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierFunctions.m; sourceTree = "<group>"; };
+		31C1A8832601AE9D00F0AF9C /* UIBezierPath+Elements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Elements.h"; sourceTree = "<group>"; };
+		31C1A8842601AE9D00F0AF9C /* BezierElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierElement.m; sourceTree = "<group>"; };
+		31C1A8852601AE9D00F0AF9C /* BezierUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierUtils.m; sourceTree = "<group>"; };
+		31C1A8862601AE9D00F0AF9C /* BezierElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierElement.h; sourceTree = "<group>"; };
+		31C1A8872601AE9D00F0AF9C /* BezierUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierUtils.h; sourceTree = "<group>"; };
+		31C1A8882601AE9D00F0AF9C /* UIBezierPath+Elements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Elements.m"; sourceTree = "<group>"; };
+		31C1A8892601AE9D00F0AF9C /* BezierFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierFunctions.h; sourceTree = "<group>"; };
+		31C1A88B2601AE9D00F0AF9C /* Drawing-Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Drawing-Block.h"; sourceTree = "<group>"; };
+		31C1A88C2601AE9D00F0AF9C /* Drawing-Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Drawing-Util.h"; sourceTree = "<group>"; };
+		31C1A88D2601AE9D00F0AF9C /* Drawing-Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Drawing-Gradient.h"; sourceTree = "<group>"; };
+		31C1A88E2601AE9D00F0AF9C /* Drawing-Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Drawing-Util.m"; sourceTree = "<group>"; };
+		31C1A88F2601AE9D00F0AF9C /* Drawing-Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Drawing-Block.m"; sourceTree = "<group>"; };
+		31C1A8902601AE9D00F0AF9C /* Drawing-Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Drawing-Gradient.m"; sourceTree = "<group>"; };
+		31C1A8922601AE9D00F0AF9C /* ImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtils.m; sourceTree = "<group>"; };
+		31C1A8932601AE9D00F0AF9C /* ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtils.h; sourceTree = "<group>"; };
+		31C1A8952601AE9D00F0AF9C /* BaseGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseGeometry.h; sourceTree = "<group>"; };
+		31C1A8962601AE9D00F0AF9C /* BaseGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseGeometry.m; sourceTree = "<group>"; };
+		31C1A8982601AE9D00F0AF9C /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		31C1A8992601AE9D00F0AF9C /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		31C1A8A52601B25400F0AF9C /* Practice_6_1.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Practice_6_1.pch; sourceTree = "<group>"; };
 		31CE2D152600B07800FCF46A /* Practice_6_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice_6_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31CE2D182600B07800FCF46A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		31CE2D192600B07800FCF46A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,8 +62,8 @@
 		31CE2D272600B07B00FCF46A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31CE2D292600B07B00FCF46A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31CE2D2A2600B07B00FCF46A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		31CE2D322600B15700FCF46A /* Gradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gradient.h; sourceTree = "<group>"; };
-		31CE2D332600B15700FCF46A /* Gradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gradient.m; sourceTree = "<group>"; };
+		31CE2D322600B15700FCF46A /* MyGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyGradient.h; sourceTree = "<group>"; };
+		31CE2D332600B15700FCF46A /* MyGradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyGradient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +77,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31C1A87F2601AE9D00F0AF9C /* Quartz Book Pack */ = {
+			isa = PBXGroup;
+			children = (
+				31C1A8802601AE9D00F0AF9C /* Bezier */,
+				31C1A88A2601AE9D00F0AF9C /* Drawing */,
+				31C1A8912601AE9D00F0AF9C /* Image */,
+				31C1A8942601AE9D00F0AF9C /* Geometry */,
+				31C1A8972601AE9D00F0AF9C /* Utility */,
+			);
+			path = "Quartz Book Pack";
+			sourceTree = "<group>";
+		};
+		31C1A8802601AE9D00F0AF9C /* Bezier */ = {
+			isa = PBXGroup;
+			children = (
+				31C1A8812601AE9D00F0AF9C /* Bezier.h */,
+				31C1A8822601AE9D00F0AF9C /* BezierFunctions.m */,
+				31C1A8832601AE9D00F0AF9C /* UIBezierPath+Elements.h */,
+				31C1A8842601AE9D00F0AF9C /* BezierElement.m */,
+				31C1A8852601AE9D00F0AF9C /* BezierUtils.m */,
+				31C1A8862601AE9D00F0AF9C /* BezierElement.h */,
+				31C1A8872601AE9D00F0AF9C /* BezierUtils.h */,
+				31C1A8882601AE9D00F0AF9C /* UIBezierPath+Elements.m */,
+				31C1A8892601AE9D00F0AF9C /* BezierFunctions.h */,
+			);
+			path = Bezier;
+			sourceTree = "<group>";
+		};
+		31C1A88A2601AE9D00F0AF9C /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				31C1A88B2601AE9D00F0AF9C /* Drawing-Block.h */,
+				31C1A88C2601AE9D00F0AF9C /* Drawing-Util.h */,
+				31C1A88D2601AE9D00F0AF9C /* Drawing-Gradient.h */,
+				31C1A88E2601AE9D00F0AF9C /* Drawing-Util.m */,
+				31C1A88F2601AE9D00F0AF9C /* Drawing-Block.m */,
+				31C1A8902601AE9D00F0AF9C /* Drawing-Gradient.m */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
+		31C1A8912601AE9D00F0AF9C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				31C1A8922601AE9D00F0AF9C /* ImageUtils.m */,
+				31C1A8932601AE9D00F0AF9C /* ImageUtils.h */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		31C1A8942601AE9D00F0AF9C /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				31C1A8952601AE9D00F0AF9C /* BaseGeometry.h */,
+				31C1A8962601AE9D00F0AF9C /* BaseGeometry.m */,
+			);
+			path = Geometry;
+			sourceTree = "<group>";
+		};
+		31C1A8972601AE9D00F0AF9C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				31C1A8982601AE9D00F0AF9C /* Utility.m */,
+				31C1A8992601AE9D00F0AF9C /* Utility.h */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		31CE2D0C2600B07800FCF46A = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				31CE2D362600B16300FCF46A /* Gradient */,
+				31C1A87F2601AE9D00F0AF9C /* Quartz Book Pack */,
 				31CE2D182600B07800FCF46A /* AppDelegate.h */,
 				31CE2D192600B07800FCF46A /* AppDelegate.m */,
 				31CE2D1B2600B07800FCF46A /* SceneDelegate.h */,
@@ -76,6 +177,7 @@
 				31CE2D262600B07B00FCF46A /* LaunchScreen.storyboard */,
 				31CE2D292600B07B00FCF46A /* Info.plist */,
 				31CE2D2A2600B07B00FCF46A /* main.m */,
+				31C1A8A52601B25400F0AF9C /* Practice_6_1.pch */,
 			);
 			path = Practice_6_1;
 			sourceTree = "<group>";
@@ -83,8 +185,8 @@
 		31CE2D362600B16300FCF46A /* Gradient */ = {
 			isa = PBXGroup;
 			children = (
-				31CE2D322600B15700FCF46A /* Gradient.h */,
-				31CE2D332600B15700FCF46A /* Gradient.m */,
+				31CE2D322600B15700FCF46A /* MyGradient.h */,
+				31CE2D332600B15700FCF46A /* MyGradient.m */,
 			);
 			path = Gradient;
 			sourceTree = "<group>";
@@ -160,9 +262,19 @@
 			files = (
 				31CE2D202600B07800FCF46A /* ViewController.m in Sources */,
 				31CE2D1A2600B07800FCF46A /* AppDelegate.m in Sources */,
+				31C1A89D2601AE9D00F0AF9C /* UIBezierPath+Elements.m in Sources */,
+				31C1A89C2601AE9D00F0AF9C /* BezierUtils.m in Sources */,
+				31C1A89E2601AE9D00F0AF9C /* Drawing-Util.m in Sources */,
+				31C1A89A2601AE9D00F0AF9C /* BezierFunctions.m in Sources */,
 				31CE2D2B2600B07B00FCF46A /* main.m in Sources */,
+				31C1A8A32601AE9D00F0AF9C /* Utility.m in Sources */,
+				31C1A89F2601AE9D00F0AF9C /* Drawing-Block.m in Sources */,
+				31C1A8A02601AE9D00F0AF9C /* Drawing-Gradient.m in Sources */,
+				31C1A89B2601AE9D00F0AF9C /* BezierElement.m in Sources */,
 				31CE2D1D2600B07800FCF46A /* SceneDelegate.m in Sources */,
-				31CE2D342600B15700FCF46A /* Gradient.m in Sources */,
+				31CE2D342600B15700FCF46A /* MyGradient.m in Sources */,
+				31C1A8A22601AE9D00F0AF9C /* BaseGeometry.m in Sources */,
+				31C1A8A12601AE9D00F0AF9C /* ImageUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +418,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Practice_6_1/Practice_6_1.pch";
 				INFOPLIST_FILE = Practice_6_1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -323,6 +437,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Practice_6_1/Practice_6_1.pch";
 				INFOPLIST_FILE = Practice_6_1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
